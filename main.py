@@ -23,7 +23,6 @@ if __name__ == '__main__':
     df['Condition'] = df['Condition'].replace({'Good - Refurbished': 'Used'})
 
     df['Screen_Size'] = df['Screen_Size'].replace({10.: 10.1})
-    df['Screen_Size'] = df['Screen_Size'].replace({'10.1': '10'})
     df['Screen_Size'] = df['Screen_Size'].replace({10.5: 10.1})
     df['Screen_Size'] = df['Screen_Size'].replace({11.6: 12.4})
     df['Screen_Size'] = df['Screen_Size'].replace({12.: 12.4})
